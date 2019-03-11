@@ -230,7 +230,7 @@
 				atmel,use-dma-tx;
 				pinctrl-names = "default";
 				pinctrl-0 = <&pinctrl_uart3_default>;
-				linux,rs485-enabled-at-boot-time;
+				/*linux,rs485-enabled-at-boot-time;*/
 				status = "okay"; /* Conflict with isc. */
 			};
 
