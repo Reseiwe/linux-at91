@@ -196,7 +196,7 @@
 					       compatible = "nxp,pca9685-pwm";
 					       #pwm-cells = <2>;
 					       reg = <0x40>;
-					       /* invert; */
+					       invert;
 					       open-drain;
 					};
 
@@ -205,7 +205,7 @@
 						compatible = "nxp,pca9685-pwm";
 						#pwm-cells = <2>;
 						reg = <0x41>;
-						/* invert; */
+						invert;
 						open-drain;
 					};
 				};
